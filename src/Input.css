@@ -1,0 +1,33 @@
+.input-component {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.label-counter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+input {
+  width: 280px;
+  height: 25px;
+  margin: 10px auto;
+  outline: none;
+  padding: 0 10px;
+  border-width: 0;
+}
+
+input.error {
+  width: 280px;
+  height: 25px;
+  margin: 10px auto;
+  border: 1px solid red;
+}
+
+.error {
+  font-size: 10px;
+  text-align: left;
+  color: red;
+  height: 12px;
+}
